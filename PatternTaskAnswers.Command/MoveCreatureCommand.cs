@@ -3,6 +3,9 @@ using PatternTaskAnswers.Adapter;
 
 namespace PatternTaskAnswers.Command
 {
+    /// <summary>
+    ///  Команда, которая меняет месторасположение сущности 
+    /// </summary>
     public class MoveCreatureCommand : IEntityCommand<IActionSystem>
     {
         private readonly IActionSystem _system;

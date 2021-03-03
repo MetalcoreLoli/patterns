@@ -5,6 +5,13 @@ using PatternTaskAnswers.Singleton;
 
 namespace PatternTaskAnswers.Command
 {
+    /// <summary>
+    /// Абстракный класс, который описывает команды работающее с характеристиками
+    /// компонента CreatureCharacteristicsCompotent. В конструкторе принимает делегат,
+    /// Action, который принимает компонент и изменяет его. У класса есть два virutal метода,
+    /// которые реализую методы родительского интерфейса IEntityCommand c обощенным типом CreatureCharacteristicsCompotent.
+    /// Так же данная команда зависит от ILogger.  
+    /// </summary>
     public abstract class ChangeCharacteristicsCommnad : IEntityCommand<CreatureCharacteristicsCompotent>
     {
         protected readonly Action<CreatureCharacteristicsCompotent> _execute;
