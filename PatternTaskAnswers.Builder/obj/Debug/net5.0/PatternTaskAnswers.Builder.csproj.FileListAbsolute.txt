@@ -1,0 +1,12 @@
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/bin/Debug/net5.0/PatternTaskAnswers.Builder.deps.json
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/bin/Debug/net5.0/PatternTaskAnswers.Builder.dll
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/bin/Debug/net5.0/ref/PatternTaskAnswers.Builder.dll
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/bin/Debug/net5.0/PatternTaskAnswers.Builder.pdb
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/obj/Debug/net5.0/PatternTaskAnswers.Builder.csprojAssemblyReference.cache
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/obj/Debug/net5.0/PatternTaskAnswers.Builder.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/obj/Debug/net5.0/PatternTaskAnswers.Builder.AssemblyInfoInputs.cache
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/obj/Debug/net5.0/PatternTaskAnswers.Builder.AssemblyInfo.cs
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/obj/Debug/net5.0/PatternTaskAnswers.Builder.csproj.CoreCompileInputs.cache
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/obj/Debug/net5.0/PatternTaskAnswers.Builder.dll
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/obj/Debug/net5.0/ref/PatternTaskAnswers.Builder.dll
+/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/obj/Debug/net5.0/PatternTaskAnswers.Builder.pdb

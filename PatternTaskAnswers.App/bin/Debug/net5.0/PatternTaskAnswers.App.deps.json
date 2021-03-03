@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PatternTaskAnswers.App/1.0.0": {
+        "dependencies": {
+          "PatternTaskAnswers.Adapter": "1.0.0",
+          "PatternTaskAnswers.Builder": "1.0.0",
+          "PatternTaskAnswers.Command": "1.0.0",
+          "PatternTaskAnswers.Singleton": "1.0.0"
+        },
+        "runtime": {
+          "PatternTaskAnswers.App.dll": {}
+        }
+      },
+      "PatternTaskAnswers.Adapter/1.0.0": {
+        "dependencies": {
+          "PatternTaskAnswers.Singleton": "1.0.0"
+        },
+        "runtime": {
+          "PatternTaskAnswers.Adapter.dll": {}
+        }
+      },
+      "PatternTaskAnswers.Builder/1.0.0": {
+        "runtime": {
+          "PatternTaskAnswers.Builder.dll": {}
+        }
+      },
+      "PatternTaskAnswers.Command/1.0.0": {
+        "dependencies": {
+          "PatternTaskAnswers.Adapter": "1.0.0",
+          "PatternTaskAnswers.Builder": "1.0.0",
+          "PatternTaskAnswers.Singleton": "1.0.0"
+        },
+        "runtime": {
+          "PatternTaskAnswers.Command.dll": {}
+        }
+      },
+      "PatternTaskAnswers.Singleton/1.0.0": {
+        "runtime": {
+          "PatternTaskAnswers.Singleton.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PatternTaskAnswers.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PatternTaskAnswers.Adapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PatternTaskAnswers.Builder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PatternTaskAnswers.Command/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PatternTaskAnswers.Singleton/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

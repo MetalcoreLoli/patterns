@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PatternTaskAnswers.Adapter\PatternTaskAnswers.Adapter.csproj" />
+      <ProjectReference Include="..\PatternTaskAnswers.Builder\PatternTaskAnswers.Builder.csproj" />
+      <ProjectReference Include="..\PatternTaskAnswers.Singleton\PatternTaskAnswers.Singleton.csproj" />
+    </ItemGroup>
+
+</Project>

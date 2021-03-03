@@ -1,0 +1,153 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "PatternTaskAnswers.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PatternTaskAnswers.Singleton": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PatternTaskAnswers.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PatternTaskAnswers.Adapter.dll": {}
+        }
+      },
+      "PatternTaskAnswers.Builder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/PatternTaskAnswers.Builder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PatternTaskAnswers.Builder.dll": {}
+        }
+      },
+      "PatternTaskAnswers.Command/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PatternTaskAnswers.Adapter": "1.0.0",
+          "PatternTaskAnswers.Builder": "1.0.0",
+          "PatternTaskAnswers.Singleton": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PatternTaskAnswers.Command.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PatternTaskAnswers.Command.dll": {}
+        }
+      },
+      "PatternTaskAnswers.Singleton/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/PatternTaskAnswers.Singleton.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PatternTaskAnswers.Singleton.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PatternTaskAnswers.Adapter/1.0.0": {
+      "type": "project",
+      "path": "../PatternTaskAnswers.Adapter/PatternTaskAnswers.Adapter.csproj",
+      "msbuildProject": "../PatternTaskAnswers.Adapter/PatternTaskAnswers.Adapter.csproj"
+    },
+    "PatternTaskAnswers.Builder/1.0.0": {
+      "type": "project",
+      "path": "../PatternTaskAnswers.Builder/PatternTaskAnswers.Builder.csproj",
+      "msbuildProject": "../PatternTaskAnswers.Builder/PatternTaskAnswers.Builder.csproj"
+    },
+    "PatternTaskAnswers.Command/1.0.0": {
+      "type": "project",
+      "path": "../PatternTaskAnswers.Command/PatternTaskAnswers.Command.csproj",
+      "msbuildProject": "../PatternTaskAnswers.Command/PatternTaskAnswers.Command.csproj"
+    },
+    "PatternTaskAnswers.Singleton/1.0.0": {
+      "type": "project",
+      "path": "../PatternTaskAnswers.Singleton/PatternTaskAnswers.Singleton.csproj",
+      "msbuildProject": "../PatternTaskAnswers.Singleton/PatternTaskAnswers.Singleton.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "PatternTaskAnswers.Adapter >= 1.0.0",
+      "PatternTaskAnswers.Builder >= 1.0.0",
+      "PatternTaskAnswers.Command >= 1.0.0",
+      "PatternTaskAnswers.Singleton >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/daniel/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.App/PatternTaskAnswers.App.csproj",
+      "projectName": "PatternTaskAnswers.App",
+      "projectPath": "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.App/PatternTaskAnswers.App.csproj",
+      "packagesPath": "/home/daniel/.nuget/packages/",
+      "outputPath": "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.App/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/daniel/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Adapter/PatternTaskAnswers.Adapter.csproj": {
+              "projectPath": "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Adapter/PatternTaskAnswers.Adapter.csproj"
+            },
+            "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/PatternTaskAnswers.Builder.csproj": {
+              "projectPath": "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Builder/PatternTaskAnswers.Builder.csproj"
+            },
+            "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Command/PatternTaskAnswers.Command.csproj": {
+              "projectPath": "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Command/PatternTaskAnswers.Command.csproj"
+            },
+            "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Singleton/PatternTaskAnswers.Singleton.csproj": {
+              "projectPath": "/home/daniel/Projects/csharp/work/PatternTaskAnswers/PatternTaskAnswers.Singleton/PatternTaskAnswers.Singleton.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/daniel/.dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
